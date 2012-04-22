@@ -24,7 +24,8 @@ EXTRAS="/bin/rm /bin/ps /bin/su /bin/mv /bin/mkdir /bin/touch /bin/cat /usr/bin/
 	/bin/bash /bin/sh /bin/ls /dev/console /dev/null /dev/zero /dev/ptmx /dev/tty /dev/random \
 	/dev/urandom /etc/hosts /etc/resolv.conf /etc/nsswitch.conf /etc/localtime /etc/services \
 	/etc/protocols /sbin/nologin /usr/bin/groups /bin/grep /bin/chmod /bin/stty /bin/sed \ 
-	/bin/hostname /bin/chown /bin/tar /bin/gzip /bin/cp /usr/bin/expr /usr/bin/dirname /bin/date"
+	/bin/hostname /bin/chown /bin/tar /bin/gzip /bin/cp /usr/bin/expr /usr/bin/dirname \
+	/usr/bin/basename /bin/date /bin/uname"
 
 function print_usage() {
 		echo "chroot.sh by kinesis (mail@kinesis.me)
