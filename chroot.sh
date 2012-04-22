@@ -107,7 +107,7 @@ function add() {
 function build() 
 {
 # Better way to exit than 'Killed'?
-#	[ -d "$1" ] && (echo -n "Folder already exists - continue? [y/n] ";read _p;[[ "$_p" == [Yy] ]] ||kill -9 $$)
+	[ -d "$1" ] && (echo -n "Folder already exists - continue? [y/n] ";read _p;[[ "$_p" == [Yy] ]] ||kill -9 $$)
 
 	echo -n "Gathering files: "
 	FILES=$(for x in $PACKAGES; do
