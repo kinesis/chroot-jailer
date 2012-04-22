@@ -119,13 +119,13 @@ function build()
 if [ $# = 2 ]; then
 	case "$1" in
 		--mysql)
-			PACKAGES="mysql mysql-libs mysql-server vim-minimal glibc mailcap-2.1.31-2"
+			PACKAGES="mysql mysql-libs mysql-server vim-minimal glibc mailcap-2.1.31-2 tzdata"
 			build $2
 			prep $2
 			enter $2
 		;;
 		:--nginx)
-			PACKAGES="nginx nss openssl t1lib vim-minimal glibc perl mailcap-2.1.31-2"
+			PACKAGES="nginx nss openssl t1lib vim-minimal glibc perl mailcap-2.1.31-2 tzdata"
 			build $2
 			prep $2
 			enter $2
@@ -133,7 +133,7 @@ if [ $# = 2 ]; then
 		--php-fpm)
 			PACKAGES="php php-cli php-common php-devel php-fpm php-gd php-imap php-ldap \
 				  php-mbstring php-mysql php-pdo php-pear php-xml compat-mysql51 curl \
-				  libcurl nss openssl t1lib vim-minimal glibc mailcap-2.1.31-2"
+				  libcurl nss openssl t1lib vim-minimal glibc mailcap-2.1.31-2 tzdata"
 			build $2
 			prep $2
 			enter $2
@@ -141,7 +141,7 @@ if [ $# = 2 ]; then
 		--httpd)
 			PACKAGES="httpd httpd-devel nss php php-pear php-xml php-mysql php-cli php-imap \
 				  php-gd php-pdo php-devel php-mbstring php-common php-ldap curl libcurl \
-				  glibc ncurses-libs vim-minimal mailcap-2.1.31-2"
+				  glibc ncurses-libs vim-minimal mailcap-2.1.31-2 tzdata"
 			build $2
 			prep $2
 			enter $2
