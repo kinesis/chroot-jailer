@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 ################################################################################
-# chroot.sh - kinesis (mail@kinesis.me)                                        #
+# chroot.sh v0.9.9 - kinesis (mail@kinesis.me)                                 #
 # Objective: complete and concisive method of chrooting processes in RHEL      #
 #                                                                              #
 # Copyright (c) 2012 Charles Thompson, all rights reserved.                    #
