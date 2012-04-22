@@ -2,7 +2,7 @@ chroot.sh v1.0.0 (c) 2012 Charles Thompson (mail@kinesis.me)
 
 I wrote this script to add jailing functionality to Redhat Enterprise Linux.
 
-It could be modified to work with many other package formats (*.deb, *.txz, Gentoo's Emerge, etc.)
+It could be modified to work with many other package formats (*.deb, *.txz, etc.)
 
 Now you can chroot() your environments on the fly, without needing to review tutorials.
 
