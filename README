@@ -4,7 +4,7 @@ I wrote this script to add jailing functionality to Redhat Enterprise Linux.
 
 It could be modified to work with many other package formats (*.deb, *.txz, etc.)
 
-Now you can chroot() your environments on the fly, without needing to review tutorials.
+Now you can chroot() your environments on the fly, without hassles.
 
 Ideas to add:
 	X GUI (Gtk) and management console.
