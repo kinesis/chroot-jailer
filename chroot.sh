@@ -2,9 +2,14 @@
 #
 ################################################################################
 # chroot.sh v1.0.0 - kinesis (mail@kinesis.me)                                 #
-# Objective: complete and concisive method of chrooting processes in RHEL      #
+#                                                                              #
+# Objective: A script written in bash to ease the integration of chroot(1)     #
+# environments for CentOS and Redhat Linux.                                    #
 #                                                                              #
 #    Written by Charles Thompson (mail@kinesis.me)                             #
+#                                                                              #
+#    http://www.kinesis.me                                                     #
+#                                                                              #
 #    This program is free software: you can redistribute it and/or modify      #
 #    it under the terms of the GNU General Public License as published by      #
 #    the Free Software Foundation, either version 3 of the License, or         #
